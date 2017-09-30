@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9B184931F4C46840020FD4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B184921F4C46840020FD4B /* main.m */; };
+		C9B184961F4C46840020FD4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B184951F4C46840020FD4B /* AppDelegate.m */; };
+		C9B184991F4C46840020FD4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B184981F4C46840020FD4B /* ViewController.m */; };
+		C9B1849C1F4C46840020FD4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B1849A1F4C46840020FD4B /* Main.storyboard */; };
+		C9B1849E1F4C46840020FD4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B1849D1F4C46840020FD4B /* Assets.xcassets */; };
+		C9B184A11F4C46840020FD4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B1849F1F4C46840020FD4B /* LaunchScreen.storyboard */; };
+		C9B184AF1F4C47010020FD4B /* HYZombieChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B184AE1F4C47010020FD4B /* HYZombieChecker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9B184B91F4C685B0020FD4B /* HYZombieObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B184B81F4C685B0020FD4B /* HYZombieObjectTest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9B184BF1F4D55720020FD4B /* HYARCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B184BE1F4D55720020FD4B /* HYARCObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9B1848E1F4C46840020FD4B /* HYZombieCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYZombieCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B184921F4C46840020FD4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9B184941F4C46840020FD4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9B184951F4C46840020FD4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9B184971F4C46840020FD4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9B184981F4C46840020FD4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9B1849B1F4C46840020FD4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9B1849D1F4C46840020FD4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9B184A01F4C46840020FD4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9B184A21F4C46840020FD4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B184AD1F4C47010020FD4B /* HYZombieChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYZombieChecker.h; sourceTree = "<group>"; };
+		C9B184AE1F4C47010020FD4B /* HYZombieChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYZombieChecker.m; sourceTree = "<group>"; };
+		C9B184B71F4C685B0020FD4B /* HYZombieObjectTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYZombieObjectTest.h; sourceTree = "<group>"; };
+		C9B184B81F4C685B0020FD4B /* HYZombieObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYZombieObjectTest.m; sourceTree = "<group>"; };
+		C9B184BD1F4D55720020FD4B /* HYARCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYARCObject.h; sourceTree = "<group>"; };
+		C9B184BE1F4D55720020FD4B /* HYARCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYARCObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9B1848B1F4C46840020FD4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9B184851F4C46840020FD4B = {
+			isa = PBXGroup;
+			children = (
+				C9B184901F4C46840020FD4B /* HYZombieCheck */,
+				C9B1848F1F4C46840020FD4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9B1848F1F4C46840020FD4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9B1848E1F4C46840020FD4B /* HYZombieCheck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9B184901F4C46840020FD4B /* HYZombieCheck */ = {
+			isa = PBXGroup;
+			children = (
+				C9B184AC1F4C46E20020FD4B /* zombieChecker */,
+				C9B184941F4C46840020FD4B /* AppDelegate.h */,
+				C9B184951F4C46840020FD4B /* AppDelegate.m */,
+				C9B184971F4C46840020FD4B /* ViewController.h */,
+				C9B184981F4C46840020FD4B /* ViewController.m */,
+				C9B184B71F4C685B0020FD4B /* HYZombieObjectTest.h */,
+				C9B184B81F4C685B0020FD4B /* HYZombieObjectTest.m */,
+				C9B184BD1F4D55720020FD4B /* HYARCObject.h */,
+				C9B184BE1F4D55720020FD4B /* HYARCObject.m */,
+				C9B1849A1F4C46840020FD4B /* Main.storyboard */,
+				C9B1849D1F4C46840020FD4B /* Assets.xcassets */,
+				C9B1849F1F4C46840020FD4B /* LaunchScreen.storyboard */,
+				C9B184A21F4C46840020FD4B /* Info.plist */,
+				C9B184911F4C46840020FD4B /* Supporting Files */,
+			);
+			path = HYZombieCheck;
+			sourceTree = "<group>";
+		};
+		C9B184911F4C46840020FD4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9B184921F4C46840020FD4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9B184AC1F4C46E20020FD4B /* zombieChecker */ = {
+			isa = PBXGroup;
+			children = (
+				C9B184AD1F4C47010020FD4B /* HYZombieChecker.h */,
+				C9B184AE1F4C47010020FD4B /* HYZombieChecker.m */,
+			);
+			path = zombieChecker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9B1848D1F4C46840020FD4B /* HYZombieCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B184A51F4C46840020FD4B /* Build configuration list for PBXNativeTarget "HYZombieCheck" */;
+			buildPhases = (
+				C9B1848A1F4C46840020FD4B /* Sources */,
+				C9B1848B1F4C46840020FD4B /* Frameworks */,
+				C9B1848C1F4C46840020FD4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYZombieCheck;
+			productName = HYZombieCheck;
+			productReference = C9B1848E1F4C46840020FD4B /* HYZombieCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9B184861F4C46840020FD4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ZLJ;
+				TargetAttributes = {
+					C9B1848D1F4C46840020FD4B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C9B184891F4C46840020FD4B /* Build configuration list for PBXProject "HYZombieCheck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9B184851F4C46840020FD4B;
+			productRefGroup = C9B1848F1F4C46840020FD4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9B1848D1F4C46840020FD4B /* HYZombieCheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9B1848C1F4C46840020FD4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B184A11F4C46840020FD4B /* LaunchScreen.storyboard in Resources */,
+				C9B1849E1F4C46840020FD4B /* Assets.xcassets in Resources */,
+				C9B1849C1F4C46840020FD4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9B1848A1F4C46840020FD4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B184AF1F4C47010020FD4B /* HYZombieChecker.m in Sources */,
+				C9B184991F4C46840020FD4B /* ViewController.m in Sources */,
+				C9B184BF1F4D55720020FD4B /* HYARCObject.m in Sources */,
+				C9B184961F4C46840020FD4B /* AppDelegate.m in Sources */,
+				C9B184B91F4C685B0020FD4B /* HYZombieObjectTest.m in Sources */,
+				C9B184931F4C46840020FD4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9B1849A1F4C46840020FD4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B1849B1F4C46840020FD4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9B1849F1F4C46840020FD4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B184A01F4C46840020FD4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9B184A31F4C46840020FD4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9B184A41F4C46840020FD4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9B184A61F4C46840020FD4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				INFOPLIST_FILE = HYZombieCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HYZombieCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9B184A71F4C46840020FD4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				INFOPLIST_FILE = HYZombieCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HYZombieCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9B184891F4C46840020FD4B /* Build configuration list for PBXProject "HYZombieCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B184A31F4C46840020FD4B /* Debug */,
+				C9B184A41F4C46840020FD4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B184A51F4C46840020FD4B /* Build configuration list for PBXNativeTarget "HYZombieCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B184A61F4C46840020FD4B /* Debug */,
+				C9B184A71F4C46840020FD4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9B184861F4C46840020FD4B /* Project object */;
+}
